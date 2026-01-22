@@ -1,0 +1,82 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 600;
+}
+
+.list-group-item.active {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.table th {
+    font-weight: 600;
+    border-top: none;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0,123,255,.1);
+}
+
+.badge {
+    font-size: 0.8em;
+    padding: 0.4em 0.6em;
+}
+
+.modal-content {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+pre {
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+.section {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0.5rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.9em;
+    }
+}
