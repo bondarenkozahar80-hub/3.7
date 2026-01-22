@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"net/http"
 	"strconv"
-	"warehouse-system/internal/auth"
-	"warehouse-system/internal/database"
-	"warehouse-system/internal/models"
+	"3.7/internal/auth"
+	"3.7/internal/database"
+	"3.7/internal/models"
 
 	"github.com/gin-gonic/gin"
 )
